@@ -46,8 +46,8 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #a7a2a8;
-  opacity: 0.7;
+    background-color: black;
+    opacity: 0.9;
   z-index: 1;
 }
 
@@ -72,7 +72,7 @@ body {
   width: 55%;
   min-height: 20rem;
   height: 100%;
-  background-color: rgba(3, 0, 1, 0.67);
+    background-color: whitesmoke;
   transform: skewY(4deg);
   transform-origin: bottom right;
   visibility: hidden;
@@ -101,7 +101,7 @@ body {
   }
   .masthead .masthead-bg {
     min-height: 0;
-    transform: skewX(-8deg);
+      transform: skewX(-11deg);
     transform-origin: top right;
     visibility: visible;
   }
@@ -143,7 +143,7 @@ body {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(3, 0, 1, 0.67);
+    background-color: black;
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -180,13 +180,13 @@ body {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: rgba(3, 0, 1, 0.87);
+      background-color: rgba(245, 245, 245, 0.1);
   }
 }
 
 .btn-secondary {
-  background-color: #a7a2a8;
-  border-color: #a7a2a8;
+    background-color: white;
+    border-color: white;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {

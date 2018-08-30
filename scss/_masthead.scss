@@ -17,7 +17,7 @@
     width: 55%;
     min-height: 20rem;
     height: 100%;
-    background-color: fade-out($primary, 0.2);
+    background-color: whitesmoke;
     transform: skewY(4deg);
     transform-origin: bottom right;
     visibility: hidden;
@@ -44,7 +44,7 @@
     padding-bottom: 0;
     .masthead-bg {
       min-height: 0;
-      transform: skewX(-8deg);
+      transform: skewX(-11deg);
       transform-origin: top right;
       visibility: visible;
     }
