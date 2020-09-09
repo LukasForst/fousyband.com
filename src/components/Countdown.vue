@@ -17,7 +17,7 @@ export default {
   name: "Countdown",
   data() {
     return {
-      finalReleaseDate: new Date(2020, 8, 9, 21, 0, 0),
+      finalReleaseDate: new Date(2020, 8, 9, 21, 15, 0),
       days: 0,
       hours: 0,
       minutes: 0,
