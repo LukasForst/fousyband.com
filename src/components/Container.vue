@@ -3,7 +3,6 @@
     <SlideShow/>
     <div class="content">
       <Logo/>
-      <Countdown/>
     </div>
     <Socials/>
   </div>
@@ -12,7 +11,6 @@
 <script>
 import Logo from "@/components/Logo";
 import Socials from "@/components/Socials";
-import Countdown from "@/components/Countdown";
 import SlideShow from "@/components/SlideShow";
 
 export default {
@@ -20,7 +18,6 @@ export default {
   components: {
     SlideShow,
     Logo,
-    Countdown,
     Socials
   }
 }
